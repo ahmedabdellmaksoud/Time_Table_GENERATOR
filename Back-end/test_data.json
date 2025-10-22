@@ -1,0 +1,272 @@
+{
+  "timeSlots": [
+    {"id": 0, "day": "Sunday", "period": 1, "start": "09:00", "end": "09:45"},
+    {"id": 1, "day": "Sunday", "period": 2, "start": "09:45", "end": "10:30"},
+    {"id": 2, "day": "Sunday", "period": 3, "start": "10:45", "end": "11:30"},
+    {"id": 3, "day": "Sunday", "period": 4, "start": "11:30", "end": "12:15"},
+    {"id": 4, "day": "Sunday", "period": 5, "start": "12:30", "end": "13:15"},
+    {"id": 5, "day": "Sunday", "period": 6, "start": "13:15", "end": "14:00"},
+    {"id": 6, "day": "Sunday", "period": 7, "start": "14:15", "end": "15:00"},
+    {"id": 7, "day": "Sunday", "period": 8, "start": "15:00", "end": "15:45"},
+    {"id": 8, "day": "Monday", "period": 1, "start": "09:00", "end": "09:45"},
+    {"id": 9, "day": "Monday", "period": 2, "start": "09:45", "end": "10:30"},
+    {"id": 10, "day": "Monday", "period": 3, "start": "10:45", "end": "11:30"},
+    {"id": 11, "day": "Monday", "period": 4, "start": "11:30", "end": "12:15"},
+    {"id": 12, "day": "Monday", "period": 5, "start": "12:30", "end": "13:15"},
+    {"id": 13, "day": "Monday", "period": 6, "start": "13:15", "end": "14:00"},
+    {"id": 14, "day": "Monday", "period": 7, "start": "14:15", "end": "15:00"},
+    {"id": 15, "day": "Monday", "period": 8, "start": "15:00", "end": "15:45"},
+    {"id": 16, "day": "Tuesday", "period": 1, "start": "09:00", "end": "09:45"},
+    {"id": 17, "day": "Tuesday", "period": 2, "start": "09:45", "end": "10:30"},
+    {"id": 18, "day": "Tuesday", "period": 3, "start": "10:45", "end": "11:30"},
+    {"id": 19, "day": "Tuesday", "period": 4, "start": "11:30", "end": "12:15"},
+    {"id": 20, "day": "Tuesday", "period": 5, "start": "12:30", "end": "13:15"},
+    {"id": 21, "day": "Tuesday", "period": 6, "start": "13:15", "end": "14:00"},
+    {"id": 22, "day": "Tuesday", "period": 7, "start": "14:15", "end": "15:00"},
+    {"id": 23, "day": "Tuesday", "period": 8, "start": "15:00", "end": "15:45"},
+    {"id": 24, "day": "Wednesday", "period": 1, "start": "09:00", "end": "09:45"},
+    {"id": 25, "day": "Wednesday", "period": 2, "start": "09:45", "end": "10:30"},
+    {"id": 26, "day": "Wednesday", "period": 3, "start": "10:45", "end": "11:30"},
+    {"id": 27, "day": "Wednesday", "period": 4, "start": "11:30", "end": "12:15"},
+    {"id": 28, "day": "Wednesday", "period": 5, "start": "12:30", "end": "13:15"},
+    {"id": 29, "day": "Wednesday", "period": 6, "start": "13:15", "end": "14:00"},
+    {"id": 30, "day": "Wednesday", "period": 7, "start": "14:15", "end": "15:00"},
+    {"id": 31, "day": "Wednesday", "period": 8, "start": "15:00", "end": "15:45"},
+    {"id": 32, "day": "Thursday", "period": 1, "start": "09:00", "end": "09:45"},
+    {"id": 33, "day": "Thursday", "period": 2, "start": "09:45", "end": "10:30"},
+    {"id": 34, "day": "Thursday", "period": 3, "start": "10:45", "end": "11:30"},
+    {"id": 35, "day": "Thursday", "period": 4, "start": "11:30", "end": "12:15"},
+    {"id": 36, "day": "Thursday", "period": 5, "start": "12:30", "end": "13:15"},
+    {"id": 37, "day": "Thursday", "period": 6, "start": "13:15", "end": "14:00"},
+    {"id": 38, "day": "Thursday", "period": 7, "start": "14:15", "end": "15:00"},
+    {"id": 39, "day": "Thursday", "period": 8, "start": "15:00", "end": "15:45"}
+  ],
+  "courses": [
+    {
+      "courseID": "CSC115",
+      "courseName": "Introduction to Computer Science",
+      "courseType": "core",
+      "allYear": false,
+      "components": [
+        {
+          "componentID": "CSC115-LEC",
+          "type": "lecture",
+          "durationSlots": 2,
+          "frequencyPerWeek": 1,
+          "minCapacity": 150,
+          "instructorQualification": "CSC115",
+          "requiresLectureFirst": false,
+          "concurrentSections": false,
+          "studentGroups": ["CSIT_Year1_Group1", "CSIT_Year1_Group2"]
+        },
+        {
+          "componentID": "CSC115-LAB",
+          "type": "lab",
+          "labType": "computer_lab",
+          "durationSlots": 2,
+          "frequencyPerWeek": 1,
+          "minCapacity": 30,
+          "instructorQualification": "CSC115_LAB",
+          "requiresLectureFirst": true,
+          "concurrentSections": false,
+          "studentSections": ["G01", "G02", "G03", "G04", "G05", "G06"]
+        }
+      ]
+    },
+    {
+      "courseID": "MTH111",
+      "courseName": "Mathematics I",
+      "courseType": "core",
+      "allYear": true,
+      "components": [
+        {
+          "componentID": "MTH111-LEC",
+          "type": "lecture",
+          "durationSlots": 2,
+          "frequencyPerWeek": 1,
+          "minCapacity": 180,
+          "instructorQualification": "MTH111",
+          "requiresLectureFirst": false,
+          "concurrentSections": false,
+          "studentGroups": ["CSIT_Year1_Group1", "CSIT_Year1_Group2"]
+        },
+        {
+          "componentID": "MTH111-TUT",
+          "type": "tutorial",
+          "durationSlots": 1,
+          "frequencyPerWeek": 1,
+          "minCapacity": 30,
+          "instructorQualification": "MTH111_TUT",
+          "requiresLectureFirst": true,
+          "concurrentSections": false,
+          "studentSections": ["G01", "G02", "G03", "G04", "G05", "G06"]
+        }
+      ]
+    },
+    {
+      "courseID": "LRA401",
+      "courseName": "Japanese Language I",
+      "courseType": "language",
+      "allYear": false,
+      "components": [
+        {
+          "componentID": "LRA401-LEC",
+          "type": "lecture",
+          "durationSlots": 1,
+          "frequencyPerWeek": 3,
+          "minCapacity": 25,
+          "instructorQualification": "JAPANESE",
+          "requiresLectureFirst": false,
+          "concurrentSections": true,
+          "studentSections": ["S01", "S02", "S03", "S04", "S05", "S06"]
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "instructorID": "PROF001",
+      "name": "Prof. Mostafa Soliman",
+      "type": "professor",
+      "qualifications": ["CSC115", "CSC315", "CSE214"],
+      "maxHoursWeekly": 18,
+      "unavailableSlots": [0, 1, 8, 9],
+      "preferredSlots": [12, 13, 20, 21]
+    },
+    {
+      "instructorID": "PROF002",
+      "name": "Dr. Ayman Arafa",
+      "type": "professor",
+      "qualifications": ["MTH111", "ACM215"],
+      "maxHoursWeekly": 16,
+      "unavailableSlots": [32, 33, 34],
+      "preferredSlots": [2, 3, 10, 11]
+    },
+    {
+      "instructorID": "ENG001",
+      "name": "Eng. Omnya",
+      "type": "ta",
+      "qualifications": ["CSC115_LAB"],
+      "maxHoursWeekly": 16,
+      "unavailableSlots": [4, 5, 6, 7],
+      "preferredSlots": [12, 13, 14, 15]
+    },
+    {
+      "instructorID": "LANG001",
+      "name": "Japanese Instructor 1",
+      "type": "part_time",
+      "qualifications": ["JAPANESE"],
+      "maxHoursWeekly": 10,
+      "unavailableSlots": [24, 25, 26, 27],
+      "preferredSlots": [0, 1, 2, 3]
+    }
+  ],
+  "rooms": [
+    {
+      "roomID": "B07",
+      "name": "Theater B07",
+      "type": "lecture",
+      "labType": "",
+      "capacity": 200,
+      "equipment": ["projector", "sound_system"]
+    },
+    {
+      "roomID": "B17-G01",
+      "name": "Computer Lab B17-G01",
+      "type": "lab",
+      "labType": "computer_lab",
+      "capacity": 30,
+      "equipment": ["computers", "projector"]
+    },
+    {
+      "roomID": "B7-F1.04",
+      "name": "ECE Lab B7 F1.04",
+      "type": "lab",
+      "labType": "electronics_lab",
+      "capacity": 25,
+      "equipment": ["oscilloscopes", "power_supplies"]
+    },
+    {
+      "roomID": "B18-G08",
+      "name": "Classroom B18-G08",
+      "type": "classroom",
+      "labType": "",
+      "capacity": 45,
+      "equipment": ["projector"]
+    }
+  ],
+  "studentGroups": [
+    {
+      "groupID": "CSIT_Year1_Group1",
+      "year": 1,
+      "major": "general",
+      "sections": ["G01", "G02", "G03"],
+      "size": 90
+    },
+    {
+      "groupID": "CSIT_Year1_Group2",
+      "year": 1,
+      "major": "general",
+      "sections": ["G04", "G05", "G06"],
+      "size": 90
+    }
+  ],
+  "sections": [
+    {
+      "sectionID": "G01",
+      "groupID": "CSIT_Year1_Group1",
+      "year": 1,
+      "studentCount": 30,
+      "assignedCourses": ["CSC115", "MTH111"]
+    },
+    {
+      "sectionID": "G02",
+      "groupID": "CSIT_Year1_Group1",
+      "year": 1,
+      "studentCount": 30,
+      "assignedCourses": ["CSC115", "MTH111"]
+    },
+    {
+      "sectionID": "G03",
+      "groupID": "CSIT_Year1_Group1",
+      "year": 1,
+      "studentCount": 30,
+      "assignedCourses": ["CSC115", "MTH111"]
+    },
+    {
+      "sectionID": "G04",
+      "groupID": "CSIT_Year1_Group2",
+      "year": 1,
+      "studentCount": 30,
+      "assignedCourses": ["CSC115", "MTH111"]
+    },
+    {
+      "sectionID": "G05",
+      "groupID": "CSIT_Year1_Group2",
+      "year": 1,
+      "studentCount": 30,
+      "assignedCourses": ["CSC115", "MTH111"]
+    },
+    {
+      "sectionID": "G06",
+      "groupID": "CSIT_Year1_Group2",
+      "year": 1,
+      "studentCount": 30,
+      "assignedCourses": ["CSC115", "MTH111"]
+    },
+    {
+      "sectionID": "S01",
+      "groupID": "LANGUAGE_SECTIONS",
+      "year": 1,
+      "studentCount": 25,
+      "assignedCourses": ["LRA401"]
+    },
+    {
+      "sectionID": "S02",
+      "groupID": "LANGUAGE_SECTIONS",
+      "year": 1,
+      "studentCount": 25,
+      "assignedCourses": ["LRA401"]
+    }
+  ]
+}

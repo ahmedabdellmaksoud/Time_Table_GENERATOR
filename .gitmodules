@@ -1,0 +1,6 @@
+[submodule "csp-timetable-generator"]
+	path = csp-timetable-generator
+	url = https://github.com/Amr-Ma7moud/csp-timetable-generator.git
+[submodule "Front-end"]
+	path = Front-end
+	url = https://github.com/Amr-Ma7moud/csp-timetable-generator.git
