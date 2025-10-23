@@ -42,381 +42,271 @@
     {"id": 39, "day": "Thursday", "period": 8, "start": "15:00", "end": "15:45"}
   ],
   "courses": [
-    {
-      "courseID": "LRA401",
-      "courseName": "Japanese Language (1)",
-      "courseType": "language",
-      "allYear": false,
-      "components": [
-        {
-          "componentID": "LRA401-LEC",
-          "type": "lecture",
-          "durationSlots": 1,
-          "frequencyPerWeek": 3,
-          "minCapacity": 80,
-          "instructorQualification": "LRA401",
-          "requiresLectureFirst": false,
-          "concurrentSections": false,
-          "studentGroups": ["SEM1_GROUP"]
-        }
-      ]
-    },
-    {
-      "courseID": "PHY113",
-      "courseName": "Physics 1",
-      "courseType": "core",
-      "allYear": false,
-      "components": [
-        {
-          "componentID": "PHY113-LEC",
-          "type": "lecture",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 80,
-          "instructorQualification": "PHY113",
-          "requiresLectureFirst": false,
-          "concurrentSections": false,
-          "studentGroups": ["SEM1_GROUP"]
-        },
-        {
-          "componentID": "PHY113-LAB",
-          "type": "lab",
-          "labType": "physics_lab",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 30,
-          "instructorQualification": "PHY113_LAB",
-          "requiresLectureFirst": true,
-          "concurrentSections": false,
-          "studentSections": ["S1_L1", "S2_L1", "S3_L1", "S4_L1", "S5_L1", "S6_L1", "S7_L1", "S8_L1", "S9_L1", "S10_L1", "S11_L1", "S12_L1"]
-        }
-      ]
-    },
-    {
-      "courseID": "CSC111",
-      "courseName": "Fundamentals of Programming",
-      "courseType": "core",
-      "allYear": false,
-      "components": [
-        {
-          "componentID": "CSC111-LEC",
-          "type": "lecture",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 80,
-          "instructorQualification": "CSC111",
-          "requiresLectureFirst": false,
-          "concurrentSections": false,
-          "studentGroups": ["SEM1_GROUP"]
-        },
-        {
-          "componentID": "CSC111-LAB",
-          "type": "lab",
-          "labType": "computer_lab",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 35,
-          "instructorQualification": "CSC111_LAB",
-          "requiresLectureFirst": true,
-          "concurrentSections": false,
-          "studentSections": ["S1_L1", "S2_L1", "S3_L1", "S4_L1", "S5_L1", "S6_L1", "S7_L1", "S8_L1", "S9_L1", "S10_L1", "S11_L1", "S12_L1"]
-        }
-      ]
-    },
-    {
-      "courseID": "MTH111",
-      "courseName": "Mathematics (1) Calculus + Linear Algebra",
-      "courseType": "core",
-      "allYear": false,
-      "components": [
-        {
-          "componentID": "MTH111-LEC",
-          "type": "lecture",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 80,
-          "instructorQualification": "MTH111",
-          "requiresLectureFirst": false,
-          "concurrentSections": false,
-          "studentGroups": ["SEM1_GROUP"]
-        },
-        {
-          "componentID": "MTH111-LAB",
-          "type": "lab",
-          "labType": "computer_lab",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 35,
-          "instructorQualification": "MTH111_LAB",
-          "requiresLectureFirst": true,
-          "concurrentSections": false,
-          "studentSections": ["S1_L1", "S2_L1", "S3_L1", "S4_L1", "S5_L1", "S6_L1", "S7_L1", "S8_L1", "S9_L1", "S10_L1", "S11_L1", "S12_L1"]
-        }
-      ]
-    },
-    {
-      "courseID": "CSC211",
-      "courseName": "Software Engineering",
-      "courseType": "core",
-      "allYear": false,
-      "components": [
-        {
-          "componentID": "CSC211-LEC",
-          "type": "lecture",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 80,
-          "instructorQualification": "CSC211",
-          "requiresLectureFirst": false,
-          "concurrentSections": false,
-          "studentGroups": ["SEM2_GROUP"]
-        },
-        {
-          "componentID": "CSC211-LAB",
-          "type": "lab",
-          "labType": "computer_lab",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 35,
-          "instructorQualification": "CSC211_LAB",
-          "requiresLectureFirst": true,
-          "concurrentSections": false,
-          "studentSections": ["S1_L2", "S2_L2", "S3_L2", "S4_L2", "S5_L2", "S6_L2", "S7_L2", "S8_L2", "S9_L2"]
-        }
-      ]
-    },
-    {
-      "courseID": "AID321",
-      "courseName": "Machine Learning",
-      "courseType": "major",
-      "allYear": false,
-      "components": [
-        {
-          "componentID": "AID321-LEC",
-          "type": "lecture",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 80,
-          "instructorQualification": "AID321",
-          "requiresLectureFirst": false,
-          "concurrentSections": false,
-          "studentGroups": ["AID_YEAR3", "AID_YEAR4"]
-        },
-        {
-          "componentID": "AID321-LAB",
-          "type": "lab",
-          "labType": "computer_lab",
-          "durationSlots": 2,
-          "frequencyPerWeek": 1,
-          "minCapacity": 35,
-          "instructorQualification": "AID321_LAB",
-          "requiresLectureFirst": true,
-          "concurrentSections": false,
-          "studentSections": ["S1_AID_L3", "S2_AID_L3", "S3_AID_L3", "S4_AID_L3", "S1_CSC_L4"]
-        }
-      ]
-    }
+    {"course_id": "LRA401", "course_name": "Japanese Language (1)", "credits": 1, "course_type": "Lecture", "hours_per_week": 3},
+    {"course_id": "LRA101", "course_name": "Japanese Culture", "credits": 2, "course_type": "Lecture", "hours_per_week": 3},
+    {"course_id": "LRA103", "course_name": "Fine Arts Appreciation-Drawing and Paintings", "credits": 2, "course_type": "Lecture", "hours_per_week": 3},
+    {"course_id": "PHY113", "course_name": "Physics 1", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "ECE111", "course_name": "Digital Logic Design", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "MTH111", "course_name": "Mathematics (1) Calculus + Linear Algebra", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CSC111", "course_name": "Fundamentals of Programming", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CSC115", "course_name": "Introduction to Computer Science", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "LRA104", "course_name": "Music and Technology", "credits": 2, "course_type": "Lecture", "hours_per_week": 3},
+    {"course_id": "LRA105", "course_name": "Theater and Drama", "credits": 2, "course_type": "Lecture", "hours_per_week": 3},
+    {"course_id": "CSC426", "course_name": "Distributed Systems", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CSC410", "course_name": "Software Quality", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CNC419", "course_name": "IT Security and Risk Management", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "AID414", "course_name": "Graduation Project I", "credits": 2, "course_type": "Lab", "hours_per_week": 3},
+    {"course_id": "CNC411", "course_name": "Fundamentals of Cybersecurity", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "SPS315", "course_name": "Image Processing and Analysis", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "AID428", "course_name": "New Trends in AI", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "AID321", "course_name": "Machine Learning", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CSC414", "course_name": "Game Design & Development", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "BIF412", "course_name": "Management and Design of Health Care Systems", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CSC415", "course_name": "New Trends in Computer Science", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "BIF411", "course_name": "Structural Bioinformatics", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "MTH212", "course_name": "Probability and Statistics", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CSC317", "course_name": "Computer Graphics and Visualization", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CNC324", "course_name": "IT Infrastructure", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CNC418", "course_name": "Software Security", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "BIF413", "course_name": "Algorithms in Bioinformatics", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "BIF425", "course_name": "New Trends in Bioinformatics", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CNC415", "course_name": "Network Design and Management", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "ECE324", "course_name": "Digital Signal Processing", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "LRA403", "course_name": "Japanese Language (3)", "credits": 1, "course_type": "Lecture", "hours_per_week": 3},
+    {"course_id": "CNC111", "course_name": "Networks and Web Programming", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CSC211", "course_name": "Software Engineering", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "ACM215", "course_name": "Ordinary Differential Equations", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CNC311", "course_name": "Computer Networks", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CNC314", "course_name": "Database Systems", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "AID311", "course_name": "Mathematics of Data Science", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "AID312", "course_name": "Intelligent Systems", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CSE214", "course_name": "Computer Organization", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 4},
+    {"course_id": "CSC114", "course_name": "Algorithms Analysis and Design", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "LRA306", "course_name": "Natural Resources and Sustainability", "credits": 2, "course_type": "Lecture", "hours_per_week": 3},
+    {"course_id": "CNC312", "course_name": "Foundations of Information Systems", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "BIF424", "course_name": "IT Infrastructure", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CSC411", "course_name": "Software Verification and Validation (V&V)", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "AID417", "course_name": "Advanced Data Mining", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "AID413", "course_name": "Data Security", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "AID411", "course_name": "BIG Data Analytics & Visualization", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "AID427", "course_name": "New Trends in Data Science", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CSC412", "course_name": "Software Security", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "BIF311", "course_name": "Human Biology", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CSC314", "course_name": "Software Modeling and Analysis", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3},
+    {"course_id": "CSC315", "course_name": "Seminar and Project-Based Learning on CSIT", "credits": 3, "course_type": "Lecture and Lab", "hours_per_week": 3}
   ],
   "instructors": [
     {
-      "instructorID": "PROF01",
+      "instructor_id": "PROF01",
       "name": "Dr. Reda Elbasiony",
-      "type": "professor",
-      "qualifications": ["CSC111", "ECE223", "AID328"],
-      "maxHoursWeekly": 18,
-      "unavailableSlots": [16, 17, 18, 19, 20, 21, 22, 23],
-      "preferredSlots": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+      "role": "Professor",
+      "preferred_slots": ["Not on Tuesday"],
+      "qualified_courses": ["CSC111", "ECE223", "AID328"]
     },
     {
-      "instructorID": "PROF02",
+      "instructor_id": "PROF02",
       "name": "Dr. Ayman Arafa",
-      "type": "professor",
-      "qualifications": ["MTH111", "ACM215", "MTH121", "AID416"],
-      "maxHoursWeekly": 18,
-      "unavailableSlots": [0, 1, 2, 3, 4, 5, 6, 7],
-      "preferredSlots": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+      "role": "Professor",
+      "preferred_slots": ["Not on Sunday"],
+      "qualified_courses": ["MTH111", "ACM215", "MTH121", "AID416"]
     },
     {
-      "instructorID": "PROF03",
+      "instructor_id": "PROF03",
       "name": "Dr. Adel Fathy",
-      "type": "professor",
-      "qualifications": ["PHY113", "PHY123", "LRA106", "CNC320", "CSC321"],
-      "maxHoursWeekly": 18,
-      "unavailableSlots": [24, 25, 26, 27, 28, 29, 30, 31],
-      "preferredSlots": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 32, 33, 34, 35, 36, 37, 38, 39]
+      "role": "Professor",
+      "preferred_slots": ["Not on Wednesday"],
+      "qualified_courses": ["PHY113", "PHY123", "LRA106"]
     },
     {
-      "instructorID": "AP04",
-      "name": "Eng. Mariam Ismael",
-      "type": "assistant_professor",
-      "qualifications": ["CSC111", "CNC411", "CSC121", "CSC122", "AID322", "CSC321", "CSC322"],
-      "maxHoursWeekly": 16,
-      "unavailableSlots": [8, 9, 10, 11, 12, 13, 14, 15],
-      "preferredSlots": [0, 1, 2, 3, 4, 5, 6, 7, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+      "instructor_id": "PROF04",
+      "name": "Dr. Sherine Elmotasem",
+      "role": "Professor",
+      "preferred_slots": ["Not on Monday"],
+      "qualified_courses": ["LRA101", "AID416"]
     },
     {
-      "instructorID": "AP03",
+      "instructor_id": "PROF05",
+      "name": "Prof. Ahmed Allam",
+      "role": "Professor",
+      "preferred_slots": ["Not on Thursday"],
+      "qualified_courses": ["ECE111", "AID416", "LRA106"]
+    },
+    {
+      "instructor_id": "PROF06",
+      "name": "Dr. Sameh Sherif",
+      "role": "Professor",
+      "preferred_slots": ["Not on Sunday"],
+      "qualified_courses": ["ECE111", "BIF411", "BIF412"]
+    },
+    {
+      "instructor_id": "PROF07",
+      "name": "Dr. Ahmed Arafa",
+      "role": "Professor",
+      "preferred_slots": ["Not on Tuesday"],
+      "qualified_courses": ["CSC211", "AID413", "AID427", "BIF312", "BIF322", "BIF421"]
+    },
+    {
+      "instructor_id": "PROF08",
+      "name": "Dr. Ahmed Anter",
+      "role": "Professor",
+      "preferred_slots": ["Not on Wednesday"],
+      "qualified_courses": ["AID311", "SPS315"]
+    },
+    {
+      "instructor_id": "PROF09",
+      "name": "Prof. Mostafa Soliman",
+      "role": "Professor",
+      "preferred_slots": ["Not on Monday"],
+      "qualified_courses": ["CSE214", "CSC115", "CSC315"]
+    },
+    {
+      "instructor_id": "PROF10",
+      "name": "Dr. Ahmed Abdel-Malk",
+      "role": "Professor",
+      "preferred_slots": ["Not on Thursday"],
+      "qualified_courses": ["ECE324", "CNC325", "ECE214"]
+    },
+    {
+      "instructor_id": "AP01",
+      "name": "Eng. Fatma Elsayed",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Sunday"],
+      "qualified_courses": ["AID417", "CNC311", "CSC122"]
+    },
+    {
+      "instructor_id": "AP02",
+      "name": "Eng. Nada Essam",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Tuesday"],
+      "qualified_courses": ["AID411", "BIF425", "CSC121"]
+    },
+    {
+      "instructor_id": "AP03",
       "name": "Eng. Salma Alashry",
-      "type": "assistant_professor",
-      "qualifications": ["AID321", "CNC314", "CSC114", "CSC122", "AID325"],
-      "maxHoursWeekly": 16,
-      "unavailableSlots": [24, 25, 26, 27, 28, 29, 30, 31],
-      "preferredSlots": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 32, 33, 34, 35, 36, 37, 38, 39]
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Wednesday"],
+      "qualified_courses": ["AID321", "CNC314", "CSC114", "CSC122", "AID325"]
     },
     {
-      "instructorID": "PROF18",
-      "name": "Prof. Marghany Hassan",
-      "type": "professor",
-      "qualifications": ["BIF413", "AID321", "AID411", "BIF424", "AID323", "CSC324", "AID421", "CSC425", "CSC427"],
-      "maxHoursWeekly": 18,
-      "unavailableSlots": [24, 25, 26, 27, 28, 29, 30, 31],
-      "preferredSlots": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 32, 33, 34, 35, 36, 37, 38, 39]
+      "instructor_id": "AP04",
+      "name": "Eng. Mariam Ismael",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Monday"],
+      "qualified_courses": ["CSC111", "CNC411", "CSC121", "CSC122", "AID322", "CSC321", "CSC322"]
+    },
+    {
+      "instructor_id": "AP05",
+      "name": "Eng. Nada Hamdy",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Thursday"],
+      "qualified_courses": ["CSC111", "CNC311", "CSE312", "CSC221", "BIF321", "BIF322"]
+    },
+    {
+      "instructor_id": "AP06",
+      "name": "Eng. Salma Waleed",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Sunday"],
+      "qualified_courses": ["AID312", "AID311", "CSC323"]
+    },
+    {
+      "instructor_id": "AP07",
+      "name": "Eng. Menna Hamdi",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Tuesday"],
+      "qualified_courses": ["CNC312", "CNC111", "CSC122"]
+    },
+    {
+      "instructor_id": "AP08",
+      "name": "Eng. Omnya Ramadan",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Wednesday"],
+      "qualified_courses": ["CSE214", "CSC315", "CSC115"]
+    },
+    {
+      "instructor_id": "AP09",
+      "name": "Eng. Heba Abdelkader",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Monday"],
+      "qualified_courses": ["CSE214", "BIF327", "AID412"]
+    },
+    {
+      "instructor_id": "AP10",
+      "name": "Eng. Nourhan Waleed",
+      "role": "Assistant Professor",
+      "preferred_slots": ["Not on Thursday"],
+      "qualified_courses": ["AID312", "CNC314", "CSC121"]
     }
   ],
   "rooms": [
-    {
-      "roomID": "R101",
-      "name": "Lecture Room R101",
-      "type": "lecture",
-      "labType": "",
-      "capacity": 80,
-      "equipment": ["projector"]
-    },
-    {
-      "roomID": "B25",
-      "name": "Lecture Room B25",
-      "type": "lecture",
-      "labType": "",
-      "capacity": 150,
-      "equipment": ["projector", "sound_system"]
-    },
-    {
-      "roomID": "Theater",
-      "name": "Theater",
-      "type": "lecture",
-      "labType": "",
-      "capacity": 200,
-      "equipment": ["projector", "sound_system"]
-    },
-    {
-      "roomID": "L1",
-      "name": "Computer Lab L1",
-      "type": "lab",
-      "labType": "computer_lab",
-      "capacity": 35,
-      "equipment": ["computers", "projector"]
-    },
-    {
-      "roomID": "L2",
-      "name": "Computer Lab L2",
-      "type": "lab",
-      "labType": "computer_lab",
-      "capacity": 35,
-      "equipment": ["computers", "projector"]
-    },
-    {
-      "roomID": "COE_PHY_LAB",
-      "name": "COE Physics Lab",
-      "type": "lab",
-      "labType": "physics_lab",
-      "capacity": 30,
-      "equipment": ["physics_equipment"]
-    },
-    {
-      "roomID": "B17",
-      "name": "Computer Lab B17",
-      "type": "lab",
-      "labType": "computer_lab",
-      "capacity": 40,
-      "equipment": ["computers", "projector"]
-    }
+    {"room_id": "R101", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R102", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R103", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R104", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R105", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R106", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R107", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R108", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R109", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R110", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R111", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R112", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R113", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "R114", "room_type": "Lecture", "capacity": 80},
+    {"room_id": "B07", "room_type": "Lecture", "capacity": 100},
+    {"room_id": "B08", "room_type": "Lecture", "capacity": 100},
+    {"room_id": "B09", "room_type": "Lecture", "capacity": 100},
+    {"room_id": "B10", "room_type": "Lecture", "capacity": 100},
+    {"room_id": "B18", "room_type": "Lecture", "capacity": 120},
+    {"room_id": "B25", "room_type": "Lecture", "capacity": 150},
+    {"room_id": "Theater", "room_type": "Lecture", "capacity": 200},
+    {"room_id": "L1", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L2", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L3", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L4", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L5", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L6", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L7", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L8", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L9", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L10", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L11", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L12", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L13", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L14", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L15", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L16", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L17", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L18", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L19", "room_type": "Lab", "capacity": 35},
+    {"room_id": "L20", "room_type": "Lab", "capacity": 35},
+    {"room_id": "B17", "room_type": "Lab", "capacity": 40},
+    {"room_id": "COE_PHY_LAB", "room_type": "Lab", "capacity": 30}
   ],
-  "studentGroups": [
-    {
-      "groupID": "SEM1_GROUP",
-      "year": 1,
-      "major": "general",
-      "sections": ["S1_L1", "S2_L1", "S3_L1", "S4_L1", "S5_L1", "S6_L1", "S7_L1", "S8_L1", "S9_L1", "S10_L1", "S11_L1", "S12_L1"],
-      "size": 240
-    },
-    {
-      "groupID": "SEM2_GROUP",
-      "year": 1,
-      "major": "general",
-      "sections": ["S1_L2", "S2_L2", "S3_L2", "S4_L2", "S5_L2", "S6_L2", "S7_L2", "S8_L2", "S9_L2"],
-      "size": 180
-    },
-    {
-      "groupID": "AID_YEAR3",
-      "year": 3,
-      "major": "artificial_intelligence",
-      "sections": ["S1_AID_L3", "S2_AID_L3", "S3_AID_L3", "S4_AID_L3"],
-      "size": 80
-    },
-    {
-      "groupID": "CNC_YEAR3",
-      "year": 3,
-      "major": "computer_networks",
-      "sections": ["S1_CNC_L3", "S2_CNC_L3", "S3_CNC_L3", "S4_CNC_L3"],
-      "size": 80
-    },
-    {
-      "groupID": "AID_YEAR4",
-      "year": 4,
-      "major": "artificial_intelligence",
-      "sections": ["S1_AID_L4", "S2_AID_L4", "S3_AID_L4", "S4_AID_L4", "S1_CSC_L4"],
-      "size": 100
-    }
-  ],
-  "sections": [
-    {
-      "sectionID": "S1_L1",
-      "groupID": "SEM1_GROUP",
-      "year": 1,
-      "studentCount": 20,
-      "assignedCourses": ["LRA401", "LRA101", "LRA103", "PHY113", "ECE111", "MTH111", "CSC111"]
-    },
-    {
-      "sectionID": "S2_L1",
-      "groupID": "SEM1_GROUP",
-      "year": 1,
-      "studentCount": 20,
-      "assignedCourses": ["LRA401", "LRA101", "LRA103", "PHY113", "ECE111", "MTH111", "CSC111"]
-    },
-    {
-      "sectionID": "S1_L2",
-      "groupID": "SEM2_GROUP",
-      "year": 1,
-      "studentCount": 20,
-      "assignedCourses": ["ACM215", "LRA403", "CSC211", "CNC111", "MTH212"]
-    },
-    {
-      "sectionID": "S1_AID_L3",
-      "groupID": "AID_YEAR3",
-      "year": 3,
-      "studentCount": 20,
-      "assignedCourses": ["AID312", "CSE423", "CNC311", "AID311", "CNC314", "AID321"]
-    },
-    {
-      "sectionID": "S1_CNC_L3",
-      "groupID": "CNC_YEAR3",
-      "year": 3,
-      "studentCount": 20,
-      "assignedCourses": ["AID312", "CSE423", "CNC311", "CSC113", "CNC314"]
-    },
-    {
-      "sectionID": "S1_AID_L4",
-      "groupID": "AID_YEAR4",
-      "year": 4,
-      "studentCount": 20,
-      "assignedCourses": ["ECE214", "AID413", "AID427", "AID428", "AID321"]
-    },
-    {
-      "sectionID": "S1_CSC_L4",
-      "groupID": "AID_YEAR4",
-      "year": 4,
-      "studentCount": 20,
-      "assignedCourses": ["ECE223", "AID323", "AID321", "AID411"]
-    }
+
+  "groups": {
+    "CSIT": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4"
+    ],
+    "Sections": [
+      "Section 1",
+      "Section 2",
+      "Section 3",
+      "Section 4"
+    ],
+    "Specializations": [
+      "CSC",
+      "CNC",
+      "AID",
+      "BIF"
+    ]
+  },
+  "years": [
+    "1st Year",
+    "2nd Year",
+    "3rd Year",
+    "4th Year"
   ]
 }
