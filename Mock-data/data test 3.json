@@ -1,0 +1,483 @@
+{
+  "schedule": {
+    "time_slots": [
+      "9:00-9:45",
+      "9:45-10:30",
+      "10:45-11:30",
+      "11:30-12:15",
+      "12:30-1:15",
+      "1:15-2:00",
+      "2:15-3:00",
+      "3:00-3:45"
+    ],
+    "days": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ]
+  },
+  "courses": [
+    {
+      "code": "CSC 115",
+      "name": "Introduction to Computer Science",
+      "instructor": "Prof. Mostafa Soliman",
+      "type": "LEC",
+      "location": "Theater B07"
+    },
+    {
+      "code": "CSC 115",
+      "name": "Introduction to Computer Science Lab",
+      "instructor": "Eng. Omnya, Eng. Nouran Moussa, Eng. Zeina Ahmed, Eng. Omnia Shehata",
+      "type": "LAB",
+      "location": "B17-G01, B17-G22"
+    },
+    {
+      "code": "ECE 111",
+      "name": "Digital Logic Design",
+      "instructor": "Prof. Ahmed Allam & Dr. Sameh Sherif",
+      "type": "LEC",
+      "location": "Theater B07"
+    },
+    {
+      "code": "ECE 111",
+      "name": "Digital Logic Design Lab",
+      "instructor": "Eng. ECE",
+      "type": "LAB",
+      "location": "B7 F1.04"
+    },
+    {
+      "code": "ECE 111",
+      "name": "Digital Logic Design Tutorial",
+      "instructor": "Eng. ECE",
+      "type": "TUT",
+      "location": "B18 G11, B07 F1.22, B18 F1.2, B18 F1.02, B18 G04"
+    },
+    {
+      "code": "PHY 113",
+      "name": "Physics (1)",
+      "instructor": "Dr. Adel Fathy",
+      "type": "LEC",
+      "location": "B18 F1.10"
+    },
+    {
+      "code": "PHY 113",
+      "name": "Physics (1) Tutorial",
+      "instructor": "BAS",
+      "type": "TUT",
+      "location": "B18 G12, B18 F1.20, B18 F1.1, B18 G02, B07 F1.21"
+    },
+    {
+      "code": "PHY 113",
+      "name": "Physics (1) Lab",
+      "instructor": "COE PHY LAB",
+      "type": "LAB",
+      "location": "COE PHY LAB"
+    },
+    {
+      "code": "MTH 111",
+      "name": "Mathematics (1)",
+      "instructor": "Dr. Ayman Arafa",
+      "type": "LEC",
+      "location": "B18 G09"
+    },
+    {
+      "code": "MTH 111",
+      "name": "Mathematics (1) Tutorial",
+      "instructor": "BAS",
+      "type": "TUT",
+      "location": "B18 F1.20, B07 F1.22, B07 F1.23, B18 F1.19, B07 F1.02, B07 F1.01, B07 F1.21"
+    },
+    {
+      "code": "CSC 111",
+      "name": "Fundamentals of Programming",
+      "instructor": "Dr. Reda Elbasiony",
+      "type": "LEC",
+      "location": "Theater B08"
+    },
+    {
+      "code": "CSC 111",
+      "name": "Fundamentals of Programming Lab",
+      "instructor": "Eng. Nada Essam, Eng. Nour Akram, Eng. Mariem Nagy, Eng. Mariam Ismael",
+      "type": "LAB",
+      "location": "B17-G22"
+    },
+    {
+      "code": "LRA 401",
+      "name": "Japanese Language (1)",
+      "instructor": "",
+      "type": "LEC",
+      "location": "B18 F1.2, B18 F1.20, B18 F1.13"
+    },
+    {
+      "code": "LRA 104",
+      "name": "Music and Technology",
+      "instructor": "",
+      "type": "LEC",
+      "location": "B18 G09, B18 F1.1"
+    },
+    {
+      "code": "LRA 105",
+      "name": "Theater and Drama",
+      "instructor": "",
+      "type": "LEC",
+      "location": "B18 G13, B18 F1.5"
+    },
+    {
+      "code": "CSC 426",
+      "name": "Distributed Systems",
+      "instructor": "Eng. Zeina Shreif, Dr. Mustafa AlSayed",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.20, B18-G01, B07 F1.22"
+    },
+    {
+      "code": "CSC 410",
+      "name": "Software Quality",
+      "instructor": "Eng. Zeina Shreif, Dr. Mohamed Khames",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G01, B07 F1.20, B07 F1.24"
+    },
+    {
+      "code": "CNC 419",
+      "name": "IT Security and Risk Management",
+      "instructor": "Eng. yyy, Eng. Sama Osama, Dr. Hataba",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.20, B18-G14, B18-G17, B07 F1.22, Theater B7"
+    },
+    {
+      "code": "AID 414",
+      "name": "Graduation Project I",
+      "instructor": "",
+      "type": "Project",
+      "location": ""
+    },
+    {
+      "code": "CNC 411",
+      "name": "Fundamentals of Cybersecurity",
+      "instructor": "Dr. Ahmed Arafa, Eng: Sama Osama, Eng: Mariam Ismael",
+      "type": "LEC/TUT/LAB",
+      "location": "Theater B25 F1.19, B07 F1.22, B07 F1.20, LABsec B17-G17"
+    },
+    {
+      "code": "SPS 315",
+      "name": "Image Processing and Analysis",
+      "instructor": "Dr. Ahmed Anter",
+      "type": "LEC",
+      "location": ""
+    },
+    {
+      "code": "BIF 411",
+      "name": "Structural Bioinformatics",
+      "instructor": "Eng. ECE, Dr. Sameh Shreif",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G01, B07 F1.22, B07 F1.23"
+    },
+    {
+      "code": "AID 428",
+      "name": "New Trends in AI",
+      "instructor": "Eng. Zeina Ahmed, Eng. Omnia Shehata, Dr. Ahmed Bayumi",
+      "type": "LEC/LAB",
+      "location": "B18-G05, B07 F1.22, B07 F1.20, B18-G14, B18-G17, Theater B07"
+    },
+    {
+      "code": "AID 321",
+      "name": "Machine Learning",
+      "instructor": "Eng. Salma Alashry, Eng. Omnia Shehata, Eng. Zeina Ahmed, Prof. Marghany Hassan",
+      "type": "LEC/LAB",
+      "location": "B07-G12, B07 F1.22, B07 F1.20, B18-G17, Theater B08"
+    },
+    {
+      "code": "CSC 414",
+      "name": "Game Design & Development",
+      "instructor": "Eng. Nouran Moussa, Dr. Mustafa AlSayed",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.20, B18-G05"
+    },
+    {
+      "code": "BIF 412",
+      "name": "Management and Design of Health Care Systems",
+      "instructor": "Eng. ECE, Eng. Nour Akram, Dr. Sameh Shreif",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.22, B18-G01, B07 F1.23"
+    },
+    {
+      "code": "CSC 415",
+      "name": "New Trends in Computer Science",
+      "instructor": "Eng. Nouran Moussa, Dr. Ahmed bayoumi",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G01, B07 F1.20, B18-G05"
+    },
+    {
+      "code": "MTH 212",
+      "name": "Probability and Statistics",
+      "instructor": "Prof. Ahmed Zakaria, TUT BAS",
+      "type": "LEC/TUT",
+      "location": "B18 G13, B07 F1.21, B07 F1.20, B07 F1.22, B07 F1.01"
+    },
+    {
+      "code": "CSC 317",
+      "name": "Computer Graphics and Visualization",
+      "instructor": "Eng. Menna Magdy, Dr. Hataba, Eng. Nada Ahmed",
+      "type": "LEC/LAB",
+      "location": "B07 G12, B18 G08, Theater B09, B18-G05, B17-G01, B18-G14, LABsec B17-G17, B17-G22"
+    },
+    {
+      "code": "CNC 324",
+      "name": "IT Infrastructure",
+      "instructor": "Eng. Sama Osama, Dr. Mohamed Akhames",
+      "type": "LEC/LAB",
+      "location": "LABnet B17-G16, Theater B10, B07 F1.22, B07 F1.21"
+    },
+    {
+      "code": "CNC 418",
+      "name": "Software Security",
+      "instructor": "Eng. Aya Tarek, Dr. Hataba",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G17, B07 F1.20, B17-G01, Theater B7"
+    },
+    {
+      "code": "BIF 413",
+      "name": "Algorithms in Bioinformatics",
+      "instructor": "Eng. Nouran Moussa, Prof. Marghany",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G01, B07 F1.22, B07 F1.23"
+    },
+    {
+      "code": "BIF 425",
+      "name": "New Trends in Bioinformatics",
+      "instructor": "Eng. Nouran Moussa, Dr. Mohamed Issa",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.22, B18-G05, B07 F1.24"
+    },
+    {
+      "code": "AID 312",
+      "name": "Intelligent Systems",
+      "instructor": "Dr. Ahmed Bayumi, Eng: Salma Waleed, Eng: Nourhan Waleed, Eng:xxx",
+      "type": "LEC/LAB",
+      "location": "Theater B07, B17-G01, B18-G05, B18-G14, B18-G17, B18-G01, B17-G22"
+    },
+    {
+      "code": "LRA 403",
+      "name": "Japanese Language (3)",
+      "instructor": "",
+      "type": "LEC",
+      "location": "B07 F1.01, B07 F1.21, B07 F1.02, B18 F1.13"
+    },
+    {
+      "code": "CNC 415",
+      "name": "Network Design and Management",
+      "instructor": "Dr. Mustafa AlSayed, Eng. yyy",
+      "type": "LEC/TUT/LAB",
+      "location": "Theater B25 F1.19, B18-G01, B18-G17, B18-G14, B07 F1.22, B07 F1.23"
+    },
+    {
+      "code": "ECE 324",
+      "name": "Digital Signal Processing",
+      "instructor": "Eng. ECE, Dr. Ahmed Abdel-Malk",
+      "type": "LEC/LAB",
+      "location": "LABsec B17.G17, Theater B25 F1.19"
+    },
+    {
+      "code": "CSC 211",
+      "name": "Software Engineering",
+      "instructor": "Dr. Ahmed Arafa, Eng. Menna Magdy, Eng. Nada Ahmed",
+      "type": "LEC/LAB",
+      "location": "Theater 10, B18-G17, B17-G01"
+    },
+    {
+      "code": "ACM 215",
+      "name": "Ordinary Differential Equations",
+      "instructor": "Dr. Ayman Arafa, TUT BAS",
+      "type": "LEC/TUT",
+      "location": "B07 G01, B07 F1.02, B07 F1.01, B18 F1.08, B18 F1.12, B07 F1.20, B07 F1.21"
+    },
+    {
+      "code": "CNC 311",
+      "name": "Computer Networks",
+      "instructor": "Prof. Samir Ahmed, Eng.Nada Hamdy, Eng.Fatma Elsayed",
+      "type": "LEC/LAB",
+      "location": "Theater B18 F1.19, B7 G01, LABnet B17-G16"
+    },
+    {
+      "code": "CNC 314",
+      "name": "Database Systems",
+      "instructor": "Dr. Mohamed Issa, Eng Nourhan Waleed, Eng Salma Alashry",
+      "type": "LEC/LAB",
+      "location": "Theater B07, B17-G01, B17-G22"
+    },
+    {
+      "code": "AID 311",
+      "name": "Mathematics of Data Science",
+      "instructor": "Eng: Salma Waleed, Dr. Ahmed Anter",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.02, B07 F1.01, B07 F1.21, B18-G01, B18-G17, B18-G14, Theater B09"
+    },
+    {
+      "code": "CNC 111",
+      "name": "Networks and Web Programming",
+      "instructor": "Dr. Ahmed Anter, Eng:Heba, Eng: Omnia Shehata, Eng Menna Hamdy, Eng. Nada Hamdy",
+      "type": "LEC/LAB",
+      "location": "Theater B18 F1.19, B18-G17, B18-G14"
+    },
+    {
+      "code": "CSC 315",
+      "name": "Seminar and Project-Based Learning on CSIT",
+      "instructor": "Eng.Nour Akram, Prof. Mostafa Soliman",
+      "type": "LEC/LAB",
+      "location": "B18-G14, B07 F1.21"
+    },
+    {
+      "code": "CSC 314",
+      "name": "Software Modeling and Analysis",
+      "instructor": "Dr. Mustafa AlSayed, Eng. Zeina Shreif",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G20, B07 F1.21, B18-G05"
+    },
+    {
+      "code": "LRA 101",
+      "name": "Japanese Culture",
+      "instructor": "Dr. Sherine Elmotasem",
+      "type": "LEC",
+      "location": "Theater B08"
+    },
+    {
+      "code": "CSE 214",
+      "name": "Computer Organization",
+      "instructor": "Prof. Mostafa Soliman, TUT: Heba Abdelkader, TUT: Omnya Ramadan, Lab: Heba Abdelkader, Lab: Omnya Ramadan",
+      "type": "LEC/TUT/LAB",
+      "location": "Theater B07, B07 F1.02, B07 F1.21, B07 F1.01, B18-G05, B17-G01"
+    },
+    {
+      "code": "LRA 306",
+      "name": "Natural Resources and Sustainability",
+      "instructor": "Prof. LBA",
+      "type": "LEC",
+      "location": "B18 G13, Theater B10"
+    },
+    {
+      "code": "CSC 114",
+      "name": "Algorithms Analysis and Design",
+      "instructor": "Eng. Salma Alashry, Prof. Marghany",
+      "type": "LEC/LAB",
+      "location": "G17-G01, Theater B08"
+    },
+    {
+      "code": "CNC 312",
+      "name": "Foundations of Information Systems",
+      "instructor": "Eng.Menna Hamdi, Dr. Reda",
+      "type": "LEC/TUT/LAB",
+      "location": "B18 F1.13, B18-G01, B18-G17, B18-G05, Theater B08"
+    },
+    {
+      "code": "BIF 424",
+      "name": "IT Infrastructure",
+      "instructor": "Eng: Nouran Moussa, Dr. Mohamed Akhames",
+      "type": "LEC/TUT/LAB",
+      "location": "LABnet B17-G16, Theater B10, B07 F1.22"
+    },
+    {
+      "code": "CSC 411",
+      "name": "Software Verification and Validation (V&V)",
+      "instructor": "Eng. xxx, Dr. Mohamed Akhames",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G01, B07 F1.20, B07 F1.24"
+    },
+    {
+      "code": "AID 417",
+      "name": "Advanced Data Mining",
+      "instructor": "Eng.Fatma Elsayed, Dr. Mohamed Issa",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.22, B07 F1.01, B07 F1.21, B07 F1.20, B18-G01, B18-G14, B18-G17, Theater B10"
+    },
+    {
+      "code": "AID 413",
+      "name": "Data Security",
+      "instructor": "Eng. Mariem Nagy, Dr. Ahmed Arafa, Eng. xxx",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G01, B18-G05, B18-G17, B07 F1.21, B07 F1.01, B07 F1.02, B07 G01"
+    },
+    {
+      "code": "AID 411",
+      "name": "BIG Data Analytics & Visualization",
+      "instructor": "Eng.Nada Essam, Prof. Marghany Hassan",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.21, B07 F1.01, B07 F1.22, B07 F1.20, B18-G14, B17-G22, B07 G01"
+    },
+    {
+      "code": "AID 427",
+      "name": "New Trends in Data Science",
+      "instructor": "Eng. Zeina Shreif, Eng. Zeina Ahmed, Dr. Ahmed Arafa",
+      "type": "LEC/TUT/LAB",
+      "location": "B18-G14, B18-G05, B18-G01, B07 F1.21, B07 F1.01, B07 F1.20, B07 G01"
+    },
+    {
+      "code": "CNC 413",
+      "name": "Digital Forensics",
+      "instructor": "Eng. Aya Tarek, Eng. yyy, Prof. Samir Ahmed",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.20, B07 F1.22, LABsec B17-G17, Theater B10"
+    },
+    {
+      "code": "CSC 412",
+      "name": "Software Security",
+      "instructor": "Dr. Mustafa AlSayed, Eng. Aya Tarek",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.24, B07 F1.20, B18-G01"
+    },
+    {
+      "code": "BIF 311",
+      "name": "Human Biology",
+      "instructor": "Prof. Eman Allam, Eng. BAS",
+      "type": "LEC/TUT/LAB",
+      "location": "B07 F1.22, B18-G01, B07 F1.02"
+    },
+    {
+      "code": "CSC 413",
+      "name": "Graduation Project I",
+      "instructor": "",
+      "type": "Project",
+      "location": ""
+    },
+    {
+      "code": "CNC 414",
+      "name": "Graduation Project I",
+      "instructor": "",
+      "type": "Project",
+      "location": ""
+    },
+    {
+      "code": "BIF 410",
+      "name": "Graduation Project (1)",
+      "instructor": "",
+      "type": "Project",
+      "location": ""
+    }
+  ],
+  "groups": {
+    "CSIT": [
+      "Group 1",
+      "Group 2",
+      "Group 3",
+      "Group 4"
+    ],
+    "Sections": [
+      "Section 1",
+      "Section 2",
+      "Section 3",
+      "Section 4"
+    ],
+    "Specializations": [
+      "CSC",
+      "CNC",
+      "AID",
+      "BIF"
+    ]
+  },
+  "years": [
+    "1st Year",
+    "2nd Year",
+    "3rd Year",
+    "4th Year"
+  ]
+}
