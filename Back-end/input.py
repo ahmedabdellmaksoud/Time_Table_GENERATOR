@@ -35,7 +35,7 @@ DATA = {
     {"room_id":"B17-G16","type":"computer lab","capacity":70,"building":"B17"},
     {"room_id":"B17-G17","type":"computer lab","capacity":70,"building":"B17"},
     {"room_id":"B17-G22","type":"computer lab","capacity":70,"building":"B17"},
-    {"room_id":"COE-PHY-LAB","type":"physics lab","capacity":30,"building":"COE"},
+    {"room_id":"COE-PHY-LAB","type":"physics lab","capacity":70,"building":"COE"},
     {"room_id":"B7-F1.04","type":"electronics lab","capacity":30,"building":"B7"},
     {"room_id":"B7-G16","type":"computer lab","capacity":70,"building":"B07"},
     {"room_id":"B7-G12","type":"computer lab","capacity":70,"building":"B07"},
@@ -173,66 +173,66 @@ DATA = {
     {"course_id":"LRA401","name":"Japanese Language (1)","year":1,"major": None,"kinds":[{"type":"Tut","length":90}]},
     {"course_id":"LRA105","name":"Theater and Drama","year":1,"major": None,"kinds":[{"type":"Lecture","length":90}]},
     {"course_id":"LRA101","name":"Japanese Culture","year":1,"major": None,"kinds":[{"type":"Lecture","length":90}]},
-    {"course_id":"PHY113","name":"Physics I","year":1,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":45},{"type":"Lab","length":90}]},
-    {"course_id":"ECE111","name":"Digital Logic Design","year":1,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":45},{"type":"Lab","length":90}]},
-    {"course_id":"CSC111","name":"Fundamentals of Programming","year":1,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
+    {"course_id":"PHY113","name":"Physics I","year":1,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":45},{"type":"Lab","length":90,"max_sections_together":3, "lab_type":"physics lab"}]},
+    {"course_id":"ECE111","name":"Digital Logic Design","year":1,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":45},{"type":"Lab","length":90, "max_sections_together":1,"lab_type":"electronics lab"}]},
+    {"course_id":"CSC111","name":"Fundamentals of Programming","year":1,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"}]},
     {"course_id":"MTH111","name":"Math I","year":1,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":90}]},
 
     {"course_id":"MTH211","name":"Probability and Statistics","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":90}]},
     {"course_id":"ACM215","name":"Ordinary Differential Equations","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":90}]},
-    {"course_id":"CSC211","name":"Software Engineering","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-    {"course_id":"CSC114","name":"Algorithms Analysis and Design","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-    {"course_id":"CNC111","name":"Networks and Web Programming","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
+    {"course_id":"CSC211","name":"Software Engineering","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"}]},
+    {"course_id":"CSC114","name":"Algorithms Analysis and Design","year":2,"major": None,"full_year": True,"kinds":[{"type":"Lecture","ignore_capacity":True,"length":90},{"type":"Lab","ignore_capacity":True,"length":90, "max_sections_together":9,"lab_type":"computer lab"}]},
+    {"course_id":"CNC111","name":"Networks and Web Programming","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"}]},
     {"course_id":"LRA403","name":"Japanese Language (3)","year":2,"major": None,"kinds":[{"type":"Tut","length":90}]},
     {"course_id":"LRA306","name":"Natural Resources and Sustainability","year":2,"major": None,"kinds":[{"type":"Lecture","length":90}]},
-    {"course_id":"CSE214","name":"Computer Organization","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":45},{"type":"Lab","length":90}]},
-
-    {"course_id":"ECE324","name":"Digital Signal Processing","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-    {"course_id":"AID312","name":"Intelligent Systems","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-    {"course_id":"CSC317","name":"Computer Graphics and Visualization","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-    {"course_id":"CNC311","name":"Computer Networks","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-    {"course_id":"CNC314","name":"Database Systems","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-    {"course_id":"CNC312","name":"Foundations of Information Systems","year":3,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"AID311","name":"Mathematics of Data Science","year":3,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CSC314","name":"Software Modeling and Analysis","year":3,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"BIF311","name":"Human Biology","year":3,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CSC315","name":"Seminar and Project-Based Learning on CSIT","year":3,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90}]},
-
-    # Year 4 Major AID AI shit
-    {"course_id":"AID413","name":"Data Security","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"AID427","name":"New Trends in Data Science","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"AID428","name":"New Trends in AI","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"AID321","name":"Machine Learning","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"AID411","name":"BIG Data Analytics & Visualization","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"AID417","name":"Advanced Data Mining","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-
-    # Year 4 Major CNC cyber shit
-    {"course_id":"CNC419","name":"IT Security and Risk Management","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CNC413","name":"Digital Forensics","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CNC418","name":"Software Security","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CNC411","name":"Fundamentals of Cybersecurity","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CNC415","name":"Network Design and Management","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CNC324","name":"IT Infrastructure","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-
-    # Year 4 Major CSC My Beloved Major
-    {"course_id":"CSC414","name":"Game Design & Development","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CSC415","name":"New Trends in Computer Science","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CSC426","name":"Distributed Systems","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CSC410","name":"Software Quality","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CSC411","name":"Software Verification and Validation (V&V)","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"CSC412","name":"Software Security","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-
-    # Year 4 Major BIF THE PEOPLE WHO DON'T KNOW WHAT THEY ARE DOING BUT THEY DO IT ANY WAY
-    {"course_id":"BIF412","name":"Management and Design of Health","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"BIF411","name":"Structural Bioinformatics","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"BIF413","name":"Algorithms in Bioinformatics","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"BIF425","name":"New Trends in Bioinformatics","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-    {"course_id":"BIF424","name":" IT Infrastructure","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90},{"type":"Tut","length":45}]},
-
-    # GRADUATION PROJECTS
-    {"course_id":"CNC414","name":"Graduation Project","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90}],"is_project": True},
-    {"course_id":"AID414","name":"Graduation Project","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90}],"is_project": True},
-    {"course_id":"CSC413","name":"Graduation Project","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90}],"is_project": True},
-    {"course_id":"BIF410","name":"Graduation Project","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90}],"is_project": True},
+    {"course_id":"CSE214","name":"Computer Organization","year":2,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Tut","length":45},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"}]},
+    # #
+    {"course_id":"ECE324","name":"Digital Signal Processing","year":3,"major": None,"full_year": True,"kinds":[{"type":"Lecture","ignore_capacity":True,"length":90},{"type":"Lab","ignore_capacity":True,"length":90,"max_sections_together":9, "lab_type":"electronics lab"}]},
+    {"course_id":"AID312","name":"Intelligent Systems","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"}]},
+    {"course_id":"CSC317","name":"Computer Graphics and Visualization","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"}]},
+    {"course_id":"CNC311","name":"Computer Networks","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"}]},
+    {"course_id":"CNC314","name":"Database Systems","year":3,"major": None,"kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"}]},
+    {"course_id":"CNC312","name":"Foundations of Information Systems","year":3,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"AID311","name":"Mathematics of Data Science","year":3,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CSC314","name":"Software Modeling and Analysis","year":3,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"BIF311","name":"Human Biology","year":3,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CSC315","name":"Seminar and Project-Based Learning on CSIT","year":3,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "lab_type":"computer lab"}]},
+    #
+    # # Year 4 Major AID AI shit
+    {"course_id":"AID413","name":"Data Security","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"AID427","name":"New Trends in Data Science","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"AID428","name":"New Trends in AI","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"AID321","name":"Machine Learning","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"AID411","name":"BIG Data Analytics & Visualization","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"AID417","name":"Advanced Data Mining","year":4,"major": "AID","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    #
+    # # Year 4 Major CNC cyber shit
+    {"course_id":"CNC419","name":"IT Security and Risk Management","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CNC413","name":"Digital Forensics","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CNC418","name":"Software Security","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CNC411","name":"Fundamentals of Cybersecurity","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CNC415","name":"Network Design and Management","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CNC324","name":"IT Infrastructure","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    #
+    # # Year 4 Major CSC My Beloved Major
+    {"course_id":"CSC414","name":"Game Design & Development","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CSC415","name":"New Trends in Computer Science","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CSC426","name":"Distributed Systems","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CSC410","name":"Software Quality","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CSC411","name":"Software Verification and Validation (V&V)","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"CSC412","name":"Software Security","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    #
+    # # Year 4 Major BIF THE PEOPLE WHO DON'T KNOW WHAT THEY ARE DOING BUT THEY DO IT ANY WAY
+    {"course_id":"BIF412","name":"Management and Design of Health","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"BIF411","name":"Structural Bioinformatics","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"BIF413","name":"Algorithms in Bioinformatics","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"BIF425","name":"New Trends in Bioinformatics","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90,"max_sections_together":2, "lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    {"course_id":"BIF424","name":" IT Infrastructure","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":90},{"type":"Lab","length":90, "max_sections_together":2,"lab_type":"computer lab"},{"type":"Tut","length":45}]},
+    # #
+    # # # GRADUATION PROJECTS
+    {"course_id":"CNC414","name":"Graduation Project","year":4,"major": "CNC","kinds":[{"type":"Lecture","length":360}],"is_project": True},
+    {"course_id":"AID414","name":"Graduation Project","year":4,"major": "AID","kinds":[{"type":"Lecture","length":360}],"is_project": True},
+    {"course_id":"CSC413","name":"Graduation Project","year":4,"major": "CSC","kinds":[{"type":"Lecture","length":360}],"is_project": True},
+    {"course_id":"BIF410","name":"Graduation Project","year":4,"major": "BIF","kinds":[{"type":"Lecture","length":360}],"is_project": True},
   ],
 }
